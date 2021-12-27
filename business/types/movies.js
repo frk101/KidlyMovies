@@ -1,0 +1,4 @@
+export const MOVIES_MOVIE = "MOVIES/MOVIE/LOAD";
+export const MOVIES_MOVIE_SUCCESS = "MOVIES/MOVIE/LOAD_SUCCESS";
+export const MOVIES_MOVIE_FAIL = "MOVIES/MOVIE/LOAD_FAIL";
+export const MOVIES_MOVIE_URL = "/3/movie/";
