@@ -10,8 +10,9 @@ export default function App() {
   return (
     <Provider store={store}>
       <NativeBaseProvider>
+      <StatusBar hidden />
         <Navigation />
-        <StatusBar hidden />
+     
       </NativeBaseProvider>
     </Provider>
   );
